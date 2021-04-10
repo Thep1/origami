@@ -11,6 +11,20 @@ body
 .header a
 {
     color:black;
+    text-decoration: none;
+}
+.header a:link
+{
+    color:black;
+}
+.header a:visited
+{
+    color:darkslategrey
+}
+.t
+{
+    transition: 2s;
+    opacity: 0;
 }
 .grid
 {
@@ -23,6 +37,10 @@ body
     border-radius: 50px;
     margin-top:20px;
 }
+.grid img:hover
+{
+    position: relative;
+}
 .origami
 {
     width: 310px;
@@ -31,8 +49,17 @@ body
     text-align: center;
     margin: 30px;
     background-color:azure;
+    transition: 2s;
 }
 .origami ul
 {
     text-align: left;
+}
+.origami:hover
+{
+    transform:scale(1.2);
+}
+.origami:hover p
+{
+    opacity:1;
 }
