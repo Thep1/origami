@@ -1,24 +1,38 @@
+body
+{
+    background-color: blanchedalmond;
+}
 .header
 {
     display: flex;
     justify-content: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header a
+{
+    color:black;
 }
 .grid
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 180px;
 }
 .grid img
 {
     border:2px solid black;
     border-radius: 50px;
+    margin-top:20px;
 }
 .origami
 {
     width: 310px;
     font-style: italic;
-    border:2px solid green;
-    border-radius: 50px;
+    border-radius: 20px;
     text-align: center;
+    margin: 30px;
+    background-color:azure;
+}
+.origami ul
+{
+    text-align: left;
 }
